@@ -26,8 +26,8 @@ button {
 
 .portada {
   position: relative;
-  -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 5%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 58%, transparent 100%);
 }
 
 .textoPortada {
@@ -36,7 +36,7 @@ button {
   top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #000000;
+  color: #ffffff;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -51,7 +51,7 @@ button {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   font-family: "Great Vibes", cursive;
   font-size: 40px;
@@ -127,7 +127,7 @@ button {
   position: relative;
   text-align: center;
   color: #000000;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 60px;
   font-family: "Times New Roman", Times, serif;
 }
@@ -135,7 +135,7 @@ button {
 .conteo {
   font-size: 45px;
   font-family: "Times New Roman", Times, serif;
-  color: rgb(0, 0, 0);
+  color: #000000;
   margin-bottom: 2%;
   margin-top: -10px;
   font-family: "Great Vibes", cursive;
@@ -145,8 +145,8 @@ section {
   width: 100%;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #000000;
-  background-color: #000000;
+  border: 1px solid #384773;
+  background-color: #384773;
   -webkit-animation: shadow-drop-2-center 0.4s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -159,7 +159,7 @@ table {
 }
 
 td {
-  border: 3px solid #000000;
+  border: 3px solid#384773;
   border-bottom: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -174,7 +174,7 @@ td {
 }
 
 th {
-  border: 3px solid #000000;
+  border: 3px solid #384773;
   border-top: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -213,7 +213,7 @@ th {
 }
 
 .bienvenida .card {
-  border: 5px ridge #f2ca50;
+  border: 5px ridge #405785;
 }
 
 .bienvenida h5 {
@@ -416,10 +416,17 @@ th {
 
 .text-box {
   padding: 10px 20px;
-  background: #f2dc99;
+  background: linear-gradient(
+    180deg,
+    /* Oro claro */ #96b1d5,
+    /* Brillo dorado */ #96b1d5,
+    /* Oro claro */ #56738c,
+    /* Oro medio */ #405785
+  );
   position: relative;
   border-radius: 10px;
   font-size: 15px;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -438,7 +445,7 @@ h5 {
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #f2dc99;
+  background: #405785;
   left: 15%;
   top: 0;
 
@@ -486,7 +493,7 @@ h5 {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid #f2dc99;
+  border-right: 15px solid #405785;
   left: -15px;
 }
 
@@ -620,22 +627,22 @@ h6 {
   margin: 0 auto;
   background: linear-gradient(
     60deg,
-    #bf7839,
-    /* Dorado oscuro */ #bf8c4e,
-    /* Bronce */ #d9af62,
-    /* Oro medio */ #f2dc99,
-    /* Oro claro */ #f2d680,
-    /* Brillo dorado */ #f2dc99,
-    /* Oro claro */ #d9af62,
-    /* Oro medio */ #bf8c4e,
-    /* Bronce */ #bf7839 /* Dorado oscuro */
+    #384773,
+    /* Dorado oscuro */ #384773,
+    /* Bronce */ #405785,
+    /* Oro medio */ #7e93b2,
+    /* Oro claro */ #96b1d5,
+    /* Brillo dorado */ #96b1d5,
+    /* Oro claro */ #56738c,
+    /* Oro medio */ #405785,
+    /* Bronce */ #405785 /* Dorado oscuro */
   );
   background-size: 400% 400%;
   animation: goldShine 6s infinite linear;
   width: 0%;
   height: 250px;
   margin-bottom: 10%;
-  border: 3px ridge #f2ca50;
+  border: 3px ridge #021e73;
 
   -webkit-animation: shadow-drop-2-center 0.4s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
