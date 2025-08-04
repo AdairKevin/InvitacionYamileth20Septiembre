@@ -565,6 +565,8 @@ h6 {
   margin-top: 15%;
   width: 100%;
 
+  color: #ffffff;
+
   view-timeline-name: --container7;
   view-timeline-axis: block;
   animation-timeline: --container7;
@@ -574,11 +576,13 @@ h6 {
 .ubicaciones h5 {
   font-family: "Great Vibes", cursive;
   font-size: 40px;
+  color: #ffffff;
 }
 
 .ubicaciones p {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
+  color: #ffffff;
 }
 
 .ubicaciones h6 {
